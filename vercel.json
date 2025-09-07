@@ -23,10 +23,5 @@
       "dest": "/frontend/$1"
     }
   ],
-  "functions": {
-    "backend/main.py": {
-      "maxDuration": 30
-    }
-  },
   "regions": ["iad1"]
 }
