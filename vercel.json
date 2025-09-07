@@ -27,5 +27,6 @@
     "backend/main.py": {
       "maxDuration": 30
     }
-  }
+  },
+  "regions": ["iad1"]
 }
