@@ -23,5 +23,5 @@
       "dest": "/frontend/$1"
     }
   ],
-  "regions": ["iad1"]
+  "outputDirectory": "frontend/build"
 }
