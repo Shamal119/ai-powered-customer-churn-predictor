@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+**/node_modules/
+
+# Development files
+*.log
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+frontend/build/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+
+# Large data files (if any)
+*.csv
+data/
+
+# ML model files - include only the essential ones, exclude large files
+ml/*.png
+ml/*.csv
+ml/data_analysis.py
+ml/improved_model.py
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Git files
+.git/
+.gitignore
+
+# Documentation that's not needed for deployment
+README.md
+PROJECT_SUMMARY.md
+DEPLOYMENT.md
+LOCAL_SETUP.md
+LICENSE
+
+# Scripts not needed for deployment
+run_*.sh
+build.sh
+test_api.py
