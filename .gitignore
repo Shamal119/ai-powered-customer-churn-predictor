@@ -17,6 +17,10 @@ venv.bak/
 # ML Models (keep the trained models)
 # *.pkl
 
+# Large data files
+data/*.csv
+ml/*.png
+
 # Environment variables
 .env
 .env.local
